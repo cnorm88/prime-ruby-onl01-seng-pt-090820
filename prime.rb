@@ -5,6 +5,7 @@ def prime?(num)
     false
   else
     binding.pry
+    (2..num-1).to_a
   end
 end
   
