@@ -5,7 +5,8 @@ def prime?(num)
     false
   else
     binding.pry
-    (2..num-1).to_a
+    (2..num-1).to_a.each do |n|
+      
   end
 end
   
